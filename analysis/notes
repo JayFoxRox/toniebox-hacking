@@ -1,0 +1,20 @@
+esptool.py v4.8.1
+File size: 8388608 (bytes)
+Detected image type: ESP32-S3
+Image version: 1
+Entry point: 403b61c4
+3 segments
+
+Segment 1: len 0x00118 load 0x3fcd0108 file_offs 0x00000018 [BYTE_ACCESSIBLE,MEM_INTERNAL,DRAM]
+Segment 2: len 0x00b90 load 0x403b6000 file_offs 0x00000138 [MEM_INTERNAL,IRAM]
+Segment 3: len 0x027f4 load 0x403ba000 file_offs 0x00000cd0 [MEM_INTERNAL,IRAM]
+Checksum: f7 (valid)
+Validation Hash: 85456bba097dfe09446eb7a0973e5090b3fe6aece39e43969b96951ee53d0f97 (valid)
+
+
+
+---
+
+
+0x9000: partition table: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/partition-tables.html
+
